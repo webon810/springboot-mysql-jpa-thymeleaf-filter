@@ -3,7 +3,7 @@ springboot-mysql-jpa-thymeleaf-filter
 
 base on the curd and continue
 
-### add query under ProductRespository interface
+### 1. Build query under ProductRespository interface
 
 ```
 public interface ProductRepository extends JpaRepository<Product, Long> {
@@ -13,7 +13,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 }
 ```
 
-### update Spring Service and Controller class
+### 2. Update Spring Service and Controller class
 
 ```
 @Service
@@ -51,7 +51,7 @@ public class AppController {
 }
 ```
 
-### on thymeleaf index.html page add the following
+### 3. Thymeleaf index.html page add the following
 
 
 
