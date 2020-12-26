@@ -75,7 +75,7 @@ public class AppController {
 
 use Thymeleaf expression [[@{/}]] to render the homepage URL properly.
 
-### that is and run the app
+### 4. That is
 
 
 
